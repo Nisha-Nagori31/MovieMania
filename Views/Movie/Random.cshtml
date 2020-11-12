@@ -1,0 +1,11 @@
+﻿@model MovieMania.Models.Movie 
+
+@*we need to specify the model related to this view with reference like above, thus we can get values from that model*@
+
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name</h2>
+

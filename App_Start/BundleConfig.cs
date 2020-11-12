@@ -22,8 +22,10 @@ namespace MovieMania
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+
+            //set the desired theme here, replace the default bootstrap file bootstrap.css with your one.
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-pink.css",
                       "~/Content/site.css"));
         }
     }
